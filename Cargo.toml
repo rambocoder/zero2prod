@@ -15,3 +15,7 @@ actix-web = "4"
 anyhow = "1"
 tokio = { version = "1", features = ["full"] }
 reqwest = { version = "0.11", features = ["json"] }
+mongodb = { version = "2", features = ["tokio-runtime"] }
+serde = "1"
+futures = "0.3"
+dotenv = "0.15.0"
